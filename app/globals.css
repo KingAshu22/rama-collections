@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/samarkan");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -109,6 +110,17 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "AMS Indu";
+  src: url("../public/fonts/AMS\ Indu\ Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rama {
+  font-family: 'AMS Indu', sans-serif;
 }
 
 .animate-spin {
