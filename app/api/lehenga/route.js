@@ -2,9 +2,8 @@ import { NextResponse } from "next/server";
 import { connectToDB } from "@/app/_utils/mongodb";
 import Lehenga from "@/models/Lehenga";
 
-await connectToDB();
 export async function POST(req) {
-
+    await connectToDB();
     try {
         const {
             clientName,
@@ -96,6 +95,7 @@ export async function POST(req) {
 
 // GET: Fetch all lehengas
 export async function GET() {
+    await connectToDB();
     try {
         // Fetch all lehengas from the database
         const lehengas = await Lehenga.find();
