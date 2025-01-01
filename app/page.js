@@ -6,9 +6,10 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter();
   return (
+    // ramaa klae|Sana
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 via-white to-blue-50">
       <div className="text-center">
-        <h1 className="text-5xl font-bold text-blue-900 mb-6"><span className="rama text-primary text-8xl">ramaa klae|Sana</span></h1>
+        <h1 className="text-5xl font-bold text-blue-900 mb-6"><span className="rama text-primary text-7xl">Rama </span>Collections</h1>
         <p className="text-lg text-gray-700 mb-12">
           Your one-stop solution for custom Lehenga designs and tailoring.
         </p>
